@@ -15,7 +15,7 @@ function isPalindroma(parola){
     const parolaMinuscola = parola.toLowerCase() //string
     const risultato = invertiParola(parolaMinuscola)   //string
     let Palindroma = false    //boolean
-    if(parolaMinuscola === risutato){
+    if(parolaMinuscola === risultato){
         Palindroma = true
         return true
         } else {
